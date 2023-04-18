@@ -514,4 +514,120 @@ nav ul li a {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.contenedor-titulo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+}
+.contenedor-titulo h3 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #30292F;
+}
+.contenedor-titulo h2 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+.contenedor-titulo p {
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  margin-top: 10px;
+  max-width: 500px;
+}
+
+.banner-service {
+  height: 300px;
+  width: 100vw;
+  background-image: url(../img/banner-service.jpg);
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+.contenedor-service {
+  width: 100vw;
+  max-width: 1100px;
+  height: auto;
+  background-image: url(../img/motivos-service.jpg);
+  background-blend-mode: soft-light;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 2rem;
+}
+.contenedor-service p {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  max-width: 500px;
+  margin-bottom: 25px;
+}
+.contenedor-service a {
+  margin-top: 40px;
+  padding: 7px;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.contenedor-service a:hover {
+  transition: 0.7s;
+  color: #fff;
+  background-color: #000000;
+}
+
+.container-trabajos {
+  background-color: #5D737E;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 60px;
+  padding: 2rem;
+}
+
+.col-stec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.col-stec h3 {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+  font-weight: 700;
+  color: #000000;
+}
+.col-stec p {
+  font-size: 15px;
+  font-family: "Mulish", sans-serif;
+  line-height: 25px;
+  color: #000000;
+}
+.col-stec .item2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
