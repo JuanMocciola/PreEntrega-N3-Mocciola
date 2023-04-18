@@ -487,3 +487,102 @@ nav ul {
     text-align: center;
     margin-top: 60px;
 }
+
+//MOTOS
+.banner-nuevas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondo-nuevas.jpg);
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+
+    h2 {
+        color: $color3;
+        font-family: $f1;
+        font-size: $t1;
+    }
+}
+
+//divisor marcas de moto
+.divisor-marcas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color2;
+    height: 200px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .logo-marcas {
+        height: 100px;
+        width: auto;
+    }
+
+    p {
+        font-family: $f2;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+}
+
+//cards motos nuevas
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+    .card-nuevas {
+        width: 360px;
+        height: 480px;
+        margin: 0 10px;
+        background-color: $color3;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+        img {
+            display: block;
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    }
+
+    .card-info {
+        padding: 20px;
+
+        h3 {
+            font-size: 24px;
+            font-family: $f1;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: $t5;
+            font-family: $f2;
+            margin-bottom: 10px;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-size: $t5;
+            color: $color3;
+            background-color: $color-btn;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}

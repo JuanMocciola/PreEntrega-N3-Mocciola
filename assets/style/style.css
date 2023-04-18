@@ -426,4 +426,92 @@ nav ul li a {
   align-items: center;
   text-align: center;
   margin-top: 60px;
+}
+
+.banner-nuevas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/fondo-nuevas.jpg);
+  background-blend-mode: soft-light;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+.banner-nuevas h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+.divisor-marcas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccdce4;
+  height: 200px;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.divisor-marcas .logo-marcas {
+  height: 100px;
+  width: auto;
+}
+.divisor-marcas p {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.card-container .card-nuevas {
+  width: 360px;
+  height: 480px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-container .card-nuevas img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-container .card-info {
+  padding: 20px;
+}
+.card-container .card-info h3 {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+}
+.card-container .card-info p {
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 10px;
+}
+.card-container .card-info button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
